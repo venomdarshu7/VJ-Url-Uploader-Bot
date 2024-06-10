@@ -68,6 +68,7 @@ class Translation(object):
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vdmoviez')
         ], [
             InlineKeyboardButton('🦊 ᴀʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('🐥 ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('📛 ᴄʟᴏsᴇ', callback_data='close')
         ]]
     )
@@ -77,6 +78,7 @@ class Translation(object):
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vdmoviez')
         ], [
             InlineKeyboardButton('❓ ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('🐥 ʜᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('📛 ᴄʟᴏsᴇ', callback_data='close')
         ]]
     )
