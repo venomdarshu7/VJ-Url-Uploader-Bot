@@ -1,5 +1,5 @@
 numpy
-yt-dlp
+yt-dlp==2024.5.27
 Pillow
 aiohttp
 hachoir
