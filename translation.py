@@ -55,31 +55,24 @@ class Translation(object):
     
     TECH_VJ_START_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/chatofvdmovz'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vdmoviez')
-        ], [
-            InlineKeyboardButton('❓ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('🦊 ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('♻️ ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('📚 ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
     )
     TECH_VJ_HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/chatofvdmovz'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vdmoviez')
+            InlineKeyboardButton('🧬 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/chatofvdmovz'),
+            InlineKeyboardButton('💈 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vdmoviez')
         ], [
-            InlineKeyboardButton('🦊 ᴀʙᴏᴜᴛ', callback_data='about'),
-            InlineKeyboardButton('🐥 ʜᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('📛 ᴄʟᴏsᴇ', callback_data='close')
+            InlineKeyboardButton('📚 ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
     )
     TECH_VJ_ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/chatofvdmovz'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vdmoviez')
+            InlineKeyboardButton('💈 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vdmoviez')
         ], [
-            InlineKeyboardButton('❓ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('🐥 ʜᴏᴍᴇ', callback_data='start'),
-            InlineKeyboardButton('📛 ᴄʟᴏsᴇ', callback_data='close')
+            InlineKeyboardButton('♻️ ʜᴇʟᴘ', callback_data='help')
         ]]
     )
     
