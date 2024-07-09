@@ -48,7 +48,7 @@ class Translation(object):
 
 🇵🇲 ғʀᴀᴍᴇᴡᴏʀᴋ : <a href="https://docs.pyrogram.org/">ᴘʏʀᴏɢʀᴀᴍ 2.0.30</a>
 
-👲 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href="https://t.me/vdmoviez">ᴅʀɴ</a></b>
+<blockquote>👲 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href="https://t.me/vdmoviez">ᴅʀɴ</a></blockquote></b>
 
 """
 
@@ -57,8 +57,6 @@ class Translation(object):
         [[
             InlineKeyboardButton('♻️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('📚 ᴀʙᴏᴜᴛ', callback_data='about')
-        ], [
-            InlineKeyboardButton('🏘️ ʜᴏᴍᴇ', callback_data='start')
         ]]
     )
     TECH_VJ_HELP_BUTTONS = InlineKeyboardMarkup(
@@ -66,7 +64,8 @@ class Translation(object):
             InlineKeyboardButton('🧬 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/chatofvdmovz'),
             InlineKeyboardButton('💈 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vdmoviez')
         ], [
-            InlineKeyboardButton('📚 ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('📚 ᴀʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('🏘️ ʜᴏᴍᴇ', callback_data='start')
         ]]
     )
     TECH_VJ_ABOUT_BUTTONS = InlineKeyboardMarkup(
@@ -74,7 +73,8 @@ class Translation(object):
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/chatofvdmovz'),
             InlineKeyboardButton('💈 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vdmoviez')
         ], [
-            InlineKeyboardButton('♻️ ʜᴇʟᴘ', callback_data='help')
+            InlineKeyboardButton('♻️ ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('🏘️ ʜᴏᴍᴇ', callback_data='start')
         ]]
     )
     
