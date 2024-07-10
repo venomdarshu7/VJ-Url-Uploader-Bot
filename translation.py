@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 class Translation(object):
 
-    TECH_VJ_START_TEXT = """
+    START_TEXT = """
 <b>ʜᴇʟʟᴏ {} 👋
 
 ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴀᴅᴠᴀɴᴄᴇ ᴜʀʟ ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ
@@ -53,7 +53,7 @@ class Translation(object):
 """
 
     
-    TECH_VJ_START_BUTTONS = InlineKeyboardMarkup(
+    START_BUTTONS = InlineKeyboardMarkup(
         [[
             InlineKeyboardButton('♻️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('📚 ᴀʙᴏᴜᴛ', callback_data='about')
@@ -65,7 +65,7 @@ class Translation(object):
             InlineKeyboardButton('💈 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vdmoviez')
         ], [
             InlineKeyboardButton('📚 ᴀʙᴏᴜᴛ', callback_data='about'),
-            InlineKeyboardButton('🏘️ ʜᴏᴍᴇ', callback_data='gotostart')
+            InlineKeyboardButton('🏘️ ʜᴏᴍᴇ', callback_data='start')
         ]]
     )
     TECH_VJ_ABOUT_BUTTONS = InlineKeyboardMarkup(
@@ -74,7 +74,7 @@ class Translation(object):
             InlineKeyboardButton('💈 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vdmoviez')
         ], [
             InlineKeyboardButton('♻️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('🏘️ ʜᴏᴍᴇ', callback_data='gotostart')
+            InlineKeyboardButton('🏘️ ʜᴏᴍᴇ', callback_data='start')
         ]]
     )
     
