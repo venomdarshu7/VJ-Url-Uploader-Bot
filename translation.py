@@ -65,16 +65,16 @@ class Translation(object):
             InlineKeyboardButton('💈 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vdmoviez')
         ], [
             InlineKeyboardButton('📚 ᴀʙᴏᴜᴛ', callback_data='about'),
-            InlineKeyboardButton('🏘️ ʜᴏᴍᴇ', callback_data='start')
+            InlineKeyboardButton('🏘️ ʜᴏᴍᴇ', callback_data='gotostart')
         ]]
     )
     TECH_VJ_ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/chatofvdmovz'),
+            InlineKeyboardButton('🧬 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/chatofvdmovz'),
             InlineKeyboardButton('💈 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vdmoviez')
         ], [
             InlineKeyboardButton('♻️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('🏘️ ʜᴏᴍᴇ', callback_data='start')
+            InlineKeyboardButton('🏘️ ʜᴏᴍᴇ', callback_data='gotostart')
         ]]
     )
     
